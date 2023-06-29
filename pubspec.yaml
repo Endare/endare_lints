@@ -1,10 +1,10 @@
 name: endare_lints
 description: Recommended lints for Flutter & Dart projects tailored to the Endare BVBA code style guide.
 repository: https://github.com/Endare/endare_lints
-version: 1.0.0
+version: 1.1.0
 
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter_lints: ^2.0.1
