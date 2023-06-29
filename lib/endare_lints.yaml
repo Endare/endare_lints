@@ -31,7 +31,7 @@ linter:
     prefer_constructors_over_static_methods: true
     prefer_final_in_for_each: true
     prefer_final_locals: true
-    prefer_mixin: false # There are still some Flutter SDK usages that get flagged. Will become obsolete in Dart 3.0
+    prefer_mixin: false # The mixin keyword is required as of Dart 3.0
     prefer_null_aware_method_calls: true
     prefer_single_quotes: true
     public_member_api_docs: false # Not enforced by the Endare style guide.
@@ -41,8 +41,10 @@ linter:
     sort_pub_dependencies: true
     sort_unnamed_constructors_first: true
     type_annotate_public_apis: true
+    type_literal_in_constant_pattern: true
     unawaited_futures: true
     unnecessary_await_in_return: true
+    unnecessary_breaks: true
     unnecessary_lambdas: true
     unnecessary_to_list_in_spreads: true
     use_colored_box: true # Flutter rule to avoid Container with only a color.
