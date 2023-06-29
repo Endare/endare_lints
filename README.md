@@ -17,15 +17,12 @@ a new version of this package will be published that incorporates those changes.
 
 Add this package to your dependencies:
 
-```shell
-flutter pub add endare_lints --dev
-```
-
-This will add `endare_lints` as a dev dependency to your project:
-
 ```yaml
 dev_dependencies:
-  endare_lints: ^1.0.0
+  endare_lints:
+    git: 
+      url: https://github.com/Endare/endare_lints
+      ref: 1.1.0
 ```
 
 Add a reference to the lint rules in your `analysis_options.yaml`:
