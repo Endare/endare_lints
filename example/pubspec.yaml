@@ -4,10 +4,10 @@ version: 0.1.0
 publish_to: none
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.3.0 <4.0.0'
 
 dev_dependencies:
   endare_lints:
     git: 
       url: https://github.com/Endare/endare_lints
-      ref: 1.1.0
+      ref: 1.2.0
