@@ -15,14 +15,14 @@ a new version of this package will be published that incorporates those changes.
 
 ## Getting started
 
-Add this package to your dependencies:
+Add this package to your dependencies (replace `<version>` with the required version number): 
 
 ```yaml
 dev_dependencies:
   endare_lints:
     git: 
       url: https://github.com/Endare/endare_lints
-      ref: 1.1.0
+      ref: <version>
 ```
 
 Add a reference to the lint rules in your `analysis_options.yaml`:
