@@ -1,3 +1,7 @@
+## 1.2.1
+
+* Add `comment_references` lint.
+
 ## 1.2.0
 
 * Support Dart 3.3
